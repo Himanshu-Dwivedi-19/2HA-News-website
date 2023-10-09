@@ -1,0 +1,195 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.website-header {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+
+.website-header h1 {
+    margin: auto 0;
+}
+
+.social-icons {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.social-icons i {
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar-nav li a:hover {
+    color: #e08b6c;
+}
+
+.breaking-news-section {
+    padding: 0 30px 0 60px;
+    display: flex;
+}
+
+#btext {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e08b6c;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.breaking-news {
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.breaking-news:hover,
+.social-icons i:hover {
+    color: #e08b6c;
+    cursor: pointer;
+}
+
+.bntime {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+
+/***contact section*/
+
+.form-section {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0px 0;
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    background: #14141421;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-button {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.8s ease;
+    background: #4DA0B0;
+    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
+}
+
+.custom-button:hover,
+.custom-button:focus {
+    transition: 0.8s ease;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+    background: linear-gradient(to right, #FF5722, #3f51b5);
+}
+
+.form-box-inner .form-control {
+    background: #ffffff8a;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+.form-box-inner .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.map-box iframe {
+    width: 100%;
+    height: 357px;
+}
+
+.map-box {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading-title {
+    text-shadow: 2px 3px 0 #101010, 1px 4px 0 rgba(0, 0, 0, 0.15);
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px;
+    font-size: 42px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-box {
+    background: #ffffff8a;
+    height: 365px;
+    padding: 15px;
+}
+
+.contact-box ul li {
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.contact i {
+    font-size: 25px;
+    color: #f65728;
+}
+
+.form-box-inner {
+    background: #ffffff8a;
+    padding: 15px;
+}

@@ -1,0 +1,538 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.website-header {
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.website-header img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+
+.website-header h1 {
+    margin: auto 0;
+}
+
+.social-icons {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.social-icons i {
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar-nav li a:hover {
+    color: #e08b6c;
+}
+
+.breaking-news-section {
+    padding: 0 30px 0 60px;
+    display: flex;
+}
+
+#btext {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e08b6c;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.breaking-news {
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.breaking-news:hover,
+.social-icons i:hover {
+    color: #e08b6c;
+    cursor: pointer;
+}
+
+.bntime {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+
+/** main ***/
+
+main a {
+    padding: 15px 0;
+    display: block;
+    transition: all 0.5s;
+}
+
+main span {
+    transition: padding-left 0.5s;
+}
+
+main a:hover span {
+    padding-left: 5px;
+}
+
+main a:hover {
+    color: #7ac64d;
+}
+
+
+/* main container left */
+
+.main-container-left {
+    padding: 30px 10px;
+}
+
+.main-container-left>h2 {
+    padding: 15px 0 15px 30px;
+}
+
+.main-container-left h3 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: var(--heading);
+}
+
+.main-container-left p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-container-left article {
+    padding: 10px;
+}
+
+.container-top-left {
+    padding: 15px 30px;
+}
+
+.container-bottom-left {
+    background: #f3f3f3;
+    margin: 15px 30px;
+}
+
+
+/*** main container right */
+
+.main-container-right {
+    padding: 30px 10px;
+}
+
+.main-container-right>h2 {
+    padding: 15px 0 15px 30px;
+}
+
+.main-container-right article {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 15px 0;
+    border-bottom: 1px solid #7ac64d;
+}
+
+.main-container-right article:last-child {
+    border-bottom: none;
+}
+
+.main-container-right img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.main-container-right h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    align-self: center;
+}
+
+.main-container-right article h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: var(--heading);
+}
+
+.main-container-right article p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-container-right article div {
+    margin-right: 10px;
+}
+
+
+/** main ***/
+
+main a {
+    padding: 15px 0;
+    display: block;
+    transition: all 0.5s;
+}
+
+main span {
+    transition: padding-left 0.5s;
+}
+
+main a:hover span {
+    padding-left: 5px;
+}
+
+main a:hover {
+    color: #7ac64d;
+}
+
+
+/* main container left */
+
+.main-container-left {
+    padding: 30px 10px;
+}
+
+.main-container-left>h2 {
+    padding: 15px 0 15px 30px;
+}
+
+.main-container-left h3 {
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: var(--heading);
+}
+
+.main-container-left p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-container-left article {
+    padding: 10px;
+}
+
+.container-top-left {
+    padding: 15px 30px;
+}
+
+.container-bottom-left {
+    background: #f3f3f3;
+    margin: 15px 30px;
+}
+
+
+/*** main container right */
+
+.main-container-right {
+    padding: 30px 10px;
+}
+
+.main-container-right>h2 {
+    padding: 15px 0 15px 30px;
+}
+
+.main-container-right article {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 15px 0;
+    border-bottom: 1px solid #7ac64d;
+}
+
+.main-container-right article:last-child {
+    border-bottom: none;
+}
+
+.main-container-right img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.main-container-right h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    align-self: center;
+}
+
+.main-container-right article h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: var(--heading);
+}
+
+.main-container-right article p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.main-container-right article div {
+    margin-right: 10px;
+}
+
+
+/*** world news */
+
+.more-news {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+
+.world h2 {
+    background-color: #b2175b;
+}
+
+.sport h2 {
+    background-color: #3c1b75;
+}
+
+.world h2,
+.sport h2 {
+    margin: 10px 0 0 0;
+    padding: 0 10px;
+}
+
+.more-news img {
+    width: 100%;
+    height: 250px;
+}
+
+.world,
+.sport {
+    flex-basis: 45%;
+}
+
+aside {
+    width: 90%;
+    padding: 10px;
+    flex-basis: 25%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: auto 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.recent-news {
+    display: flex;
+}
+
+.recent-news img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.recent-news p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.social-links section {
+    flex-basis: 30%;
+}
+
+.social-icons-footer i {
+    font-size: 37px;
+    padding: 5px;
+}
+
+.instagram img {
+    padding: 5px;
+}
+
+.footer-buttons {
+    display: block;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-buttons:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #2196f3;
+}
+
+.copyright {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .breaking-news-section {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    #featured {
+        flex: auto;
+    }
+    .news-section,
+    aside,
+    .news-section article,
+    .social-links section {
+        flex-basis: 100%;
+    }
+    aside {
+        border-width: 0;
+    }
+    .social-links section {
+        margin-top: 20px;
+    }
+    .website-header img {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+    .website-header h1 {
+        font-size: 15px;
+    }
+    .social-icons {
+        flex-basis: 100%;
+    }
+    .navbar-collapse {
+        background-color: black;
+        z-index: 16;
+    }
+    .navbar-toggler-icon {
+        background-image: url(images/menu.jpg);
+        z-index: 16;
+    }
+}
+
+
+/**footer*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright {
+    background-color: #000000;
+    text-align: center;
+}
+
+.copyright p {
+    margin: 15px 0px;
+}
+
+footer {
+    background-color: #222222;
+    padding: 60px 0px;
+}
+
+footer .menu li a {
+    color: #b1aca1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer .menu li a:hover {
+    color: #7dabdb;
+}
+
+.fa.fa-facebook,
+.fa.fa-dropbox,
+.fa.fa-flickr,
+.fa.fa-github,
+.fa.fa-linkedin,
+.fa,
+fa-tumblr,
+.fa.fa-google-plus,
+.fa.fa-tumblr {
+    color: #b1aca1;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa.fa-facebook:hover,
+.fa.fa-dropbox:hover,
+.fa.fa-flickr:hover,
+.fa.fa-github:hover,
+.fa.fa-linkedin:hover,
+.fa,
+fa-tumblr:hover,
+.fa.fa-google-plus:hover,
+.fa.fa-tumblr:hover {
+    color: #6794c2;
+}
